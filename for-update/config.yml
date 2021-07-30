@@ -1,0 +1,25 @@
+problem-sources:
+  - baekjoon
+  - programmers
+
+problem-categories:
+  hash:
+    - basic
+  stack:
+    - basic
+  queue:
+    - basic
+  BFS:
+    - basic
+  DFS:
+    - basic
+  sorting:
+    - basic
+  simulation:
+    - basic
+  DP:
+    - basic
+  greedy:
+    - basic
+  binary-search:
+    - basic

@@ -7,8 +7,5 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-## my-private
-/src/for-update/venv-for-script
-
 ## for mac
 .DS_Store

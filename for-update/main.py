@@ -1,10 +1,8 @@
-from posixpath import dirname
 import yaml
 import sys
 import os
 
 
-# config.ym을 파싱합니다.
 def parse_config():
     try:
         with open('config.yml', 'r') as file:
@@ -15,7 +13,6 @@ def parse_config():
     return config;
 
 
-# parsing한 cofig에서 문제 출처들을 추출합니다.
 def find_problem_sources(config):
     problem_sources = config.get('problem-sources')
     if problem_sources is None:
@@ -122,9 +119,6 @@ def write_down_classified_problems_into_md(classified_problems):
                 formatted_str = index_form.format(num, problem_name, problem_path)
                 num += 1
                 md.write(formatted_str)
-
-
-    return
 
 
 if __name__ == "__main__":
